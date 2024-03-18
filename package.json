@@ -1,0 +1,26 @@
+{
+  "name": "book-record-management",
+  "version": "1.0.0",
+  "description": "Library Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakash0898/Book-Record-Management.git"
+  },
+  "author": "Aakash Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakash0898/Book-Record-Management/issues"
+  },
+  "homepage": "https://github.com/aakash0898/Book-Record-Management#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
