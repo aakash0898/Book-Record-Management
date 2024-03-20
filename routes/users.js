@@ -185,10 +185,10 @@ router.get("/subscription-details/:id", (req, res) => {
   let subscriptionDate = getDateInDays(user.subscriptionDate);
   let subscriptionExpiration = subscriptionType(subscriptionDate);
 
-  // console.log("returnDate ", returnDate);
-  //   console.log("currentDate ", currentDate);
-  //     console.log("subscriptionDate ", subscriptionDate);
-  //       console.log("subscriptionExpiration ", subscriptionExpiration);
+  //console.log("returnDate ", returnDate);
+  //console.log("currentDate ", currentDate);
+  //console.log("subscriptionDate ", subscriptionDate);
+  //console.log("subscriptionExpiration ", subscriptionExpiration);
 
   const data = {
     ...user,
